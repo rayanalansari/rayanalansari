@@ -245,6 +245,16 @@ textarea{
     .header {
         justify-content: center;
     }
+    
+    .project {
+        box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -276,6 +286,16 @@ textarea{
         list-style-type: none;
         padding: 5px;
         margin: 0;
+    }
+    
+    .project {
+        box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        justify-content: space-between;
+        margin-top: 100px;
     }
 }
 
